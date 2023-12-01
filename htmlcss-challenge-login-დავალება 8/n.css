@@ -1,0 +1,350 @@
+@font-face {
+    font-family: 'Nunito SansB' ;
+    src: url(./fonts/NunitoSans_7pt_Condensed-Bold.ttf);
+}
+@font-face {
+    font-family: 'Nunito SansEB' ;
+    src: url(./fonts/NunitoSans_7pt_Condensed-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'Nunito SansSB' ;
+    src: url(./fonts/NunitoSans_7pt_Condensed-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Nunito SansR' ;
+    src: url(./fonts/NunitoSans_7pt_Condensed-Regular.ttf);
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    /* border-radius: 34px;
+    border: 10px solid #FFFFFF;
+    box-shadow: 0px 0px 45px 0px #E1C2A8;
+ height: 100vh; */
+}
+
+.Thumbnail{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    border-radius: 34px;
+    border: 10px solid #FFFFFF;
+    box-shadow: 0px 0px 45px 0px #E1C2A8;
+    overflow: hidden;
+}
+
+.illustrationDiv{
+    width: 60%;
+    height: 100vh;
+}
+
+.illustration{
+    width: 100%;
+    height: 100%;
+}
+
+.loginSection{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.flag{
+    width: 72px;
+    height: 72px;
+    border-radius: 24px;
+    margin-bottom:36px;
+    
+}
+
+.input{
+
+    width: 420px;
+    /* height: 505px; */
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 30px;
+
+}
+
+.titleAndGoogleButton{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+
+h1{
+    margin: 0;
+    font-family: 'Nunito SansB';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #525252;
+
+}
+
+.titleP{
+    margin: 0;
+    font-family: 'Nunito SansR';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #525252;
+}
+
+.googleButton{
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;
+    gap: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buttonP{
+    margin: 0;
+    font-family: 'Nunito SansB';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828282;
+}
+
+/*line*/
+.or{
+    width: 100%;
+
+}
+
+.orText{
+    color: #DDDDDD;
+    text-align: center;
+    margin: 0;
+}
+
+span{
+    font-family: 'Nunito SansSB';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #A1A1A1;
+}
+
+.inputAndButton{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.emailInput{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+.passwordInput{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.passInput{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+
+label{
+    font-family: 'Nunito SansSB';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828282;
+}
+
+input{    
+    width: 100%;
+    height: 45px;
+    padding: 13px, 10px, 13px, 10px;
+    border-radius: 5px;
+    border: 1px solid #DED2D9;
+    position: relative;
+    background-color: transparent;
+    padding-left: 10px;
+    font-family: 'Nunito SansR';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+ 
+input::placeholder{
+    color: #E0E0E0;
+
+}
+.email{
+    position: relative;
+}
+
+.envelope{
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    top: 14px;
+    right: 10px;
+}
+
+
+.password{
+    position: relative;
+}
+
+.password>::placeholder{
+    padding-bottom: 5px;
+}
+
+.key{
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    top: 14px;
+    right: 10px;
+}
+
+
+.chechboxDiv{
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.checkbox{
+    margin: 0;
+    width: 12px;
+    height: 12px;  
+    background-color: #7F265B;  
+}
+
+
+
+.Remember{
+    font-family: 'Nunito SansR';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A1A1A1;
+}
+.ForgotPassword{
+    margin: 0;
+    font-family: 'Nunito SansSB';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7F265B;
+    position: absolute;
+    right: 0;
+}
+.chechboxDiv{
+    width: 100%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+button{
+    width: 420px;
+    height: 50px;
+    padding: 13px, 10px, 12px, 10px;
+    border-radius: 6px;
+    gap: 13px;
+    font-family: 'Nunito SansEB';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 25px;
+    letter-spacing: 0em;
+    background-color: #7F265B;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.createAccount{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: auto;
+    margin-top: 8px;
+}
+
+.createP{
+    font-family: 'Nunito SansR';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828282;
+    margin: 0;
+}
+
+a{
+    font-family: 'Nunito SansSB';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7F265B;
+    text-decoration: none;
+}
